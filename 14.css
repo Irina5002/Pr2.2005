@@ -1,0 +1,25 @@
+#new{
+    background: rgb(255, 255, 255);
+    border: solid 2px gray;
+    float: left;
+    width: 600px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#company{
+    position: absolute;
+    float: left;
+    top: 450px;
+    width: 600px;
+    background: rgb(255, 255, 255);
+    border: solid 2px gray;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+h1{
+    color: blue;
+}
+.rg{
+    text-align: right;
+    color: blue;
+}

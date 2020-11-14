@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+ <link rel="stylesheet" href="style.css" />
+  <title>Задание 13</title>
+ </head>
+  <style>
+    #navbar ul{
+      display: none;
+      background-color: grey;
+      position: absolute;
+      top: 100%;
+    }
+    #navbar li:hover ul { display: block; }
+    #navbar, #navbar ul{
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+    #navbar {
+      height: 30px;
+      background-color: rgb(231, 231, 231);
+      padding-left: 25px;
+      min-width: 470px;
+    }
+    #navbar li {
+      float: left;
+      position: relative;
+      height: 100%;
+    }
+    #navbar li a {
+      display: block;
+      padding: 6px;
+      width: 100px;
+      color: black;
+      text-decoration: none;
+      text-align: center;
+    }
+    #navbar ul li { float: none; }
+    #navbar li:hover { background-color: grey; }
+    #navbar ul li:hover { background-color: rgb(212, 212, 212); }
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+  </style>
+</head>
+
+<body>
+
+  <ul id="navbar">
+    <li><a href="#">HOME</a></li>
+    <li><a href="#">ABOUT</a>
+      <ul>
+        <li><a href="#">OUR TEAM</a></li>
+        <li><a href="#">HISTORY</a></li>
+        <li><a href="#">PLACE</a></li>
+      </ul>
+    </li>
+    <li><a href="#">CLIENTS</a></li>
+    <li><a href="#">CONTACT US</a></li>
+  </ul>
+</body>
+</html>

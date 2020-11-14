@@ -1,0 +1,30 @@
+table{
+    border-spacing: 0px;
+    border-color: rgb(255, 255, 255);
+    border-collapse: collapse;
+    border: 4px rgb(255, 255, 255)
+}
+th{
+    color: rgb(255, 255, 255);
+    background: rgb(168, 201, 250);
+    border-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 30px;
+}
+.fr{
+    color: rgb(255, 255, 255);
+    background:rgb(168, 201, 250) ;
+    text-align: left;
+    padding-left: 10px;
+    height: 50px;
+    width: 200px;
+}
+td{
+    color: rgb(0, 0, 0); 
+    background: rgb(218, 237, 255);
+    text-align: center;
+}
+.sc{
+    text-align: left;
+    padding-left: 10px;
+}

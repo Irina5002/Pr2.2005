@@ -1,0 +1,7 @@
+button{
+    background: grey;
+    font-family: 'Courier New', Courier, monospace;
+}
+input:checked + span{
+    background: indianred;
+}

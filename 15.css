@@ -1,0 +1,23 @@
+div { 
+    background: rgb(255, 255, 255);
+    border: solid 3px orange;
+    float: left;
+   }
+.gl{
+    background-color: #ffffff;
+}
+h1{
+    text-align: center;
+    color: rgb(143, 104, 33)
+}
+p{
+    color:#ce8930;
+    text-indent: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.gh{
+    color:rgb(143, 104, 33);
+    text-align: center;
+    word-spacing: 20px;
+}
